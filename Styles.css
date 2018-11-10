@@ -1,0 +1,39 @@
+body {
+	background-color: rgb(204, 204, 255);
+}
+.jumbotron {
+	background: linear-gradient(90deg, Yellow, White); 
+}
+.jumbotron h1, .jumbotron p {
+	color: white; 
+	text-shadow: 0 0 10px black,0 0 10px black,0 0 10px black; 
+}
+#pillars {
+	text-align: center; 
+	color: white; 
+}
+#W1 > img {
+	height: 200px; 
+	width: 200px; 
+	float: left; 
+	margin-right: 5px; 
+	object-fit: scale-down; 
+}
+#W2 > img {
+	height: 200px; 
+	width: 200px; 
+	float: right; 
+	margin-left: 5px; 
+	object-fit: scale-down;
+}
+#W1, #W2 {
+	min-height: 200px; 
+	display: inline-block; 
+}
+.nav-item:hover {
+	background-color: white; 
+	border-radius: 5%; 
+}
+.nav-link {
+	color: black; 
+}
