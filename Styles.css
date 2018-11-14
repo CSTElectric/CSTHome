@@ -12,6 +12,13 @@ body {
 	text-align: center; 
 	color: white; 
 }
+.card-header, .card-footer {
+	background: white; 
+}
+.card-body {
+	background: linear-gradient(-90deg,rgb(204, 204, 255), White);
+}
+
 #W1 > img {
 	height: 200px; 
 	width: 200px; 
@@ -36,4 +43,11 @@ body {
 }
 .nav-link {
 	color: black; 
+}
+#ES {
+	max-width: 30%; 
+	margin: 2px auto; 
+	border: 2px solid black; 
+	
+
 }
